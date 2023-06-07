@@ -1,0 +1,359 @@
+.body{
+        font-family: 'Alegreya', serif;
+}
+.home{
+    background-image: url("images/drew-coffman-1872.jpg");
+    background-size:100% 100%;
+    height: 800px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    font-weight:400;
+    margin-bottom: 30px;
+}
+.navbar{
+    padding: 20px  0px;
+}
+.cnav-links{
+    float: left;
+}
+.logo{
+    float: left;
+    width: 60%;
+    text-align: left;
+   
+}
+.logo img{
+    width: 22%;
+    height: auto;
+    margin-top: 2.5%;
+    padding-left: 8.5%;
+    padding-bottom: 0.6%;
+}
+.navbar ul{
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+.links{
+    display: inline-block; 
+}
+.links li{
+    display: inline-block;
+    padding: 12px;
+    text-align: -webkit-match-parent;
+    font-family: 'Alegreya', serif;
+}
+.links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.home-caption button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 18px 25px;
+    color: white;
+    margin: 15px 5px 0px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.b1{
+    background-color: #8e7754;
+    border: none;
+}
+.b2{
+    background-color: transparent;
+    border: 2px solid white;
+}
+.home .welcome{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 22px;
+    margin: 0px;
+}
+.home h1{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size:76px;
+}
+.who-we-are{
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.cap{
+    float: left;
+    width: 40%;
+    text-align:left;
+    margin: 10px 10px;
+    padding: 50px;
+}
+.cap p{
+    font-size: 17px;
+    font-family: "Alegreya sans", sans-serif;
+    font-weight: 400;
+    color: #686868;
+    line-height: 32px;
+    margin-bottom: 30px;
+    /* display: block; */
+}
+.image{
+    float: left;
+    width: 44%;
+    text-align:left;
+    margin:10px ;
+    /* padding: 10px; */
+   
+}
+.image img{
+  width: 100%;  
+}
+.clear-fix{
+    clear: both;
+}
+.icons img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px
+    solid #eee;
+    margin-right: 10px;
+    vertical-align: middle
+}
+ul {
+    list-style: none;
+    /* padding: 0px;
+    margin: 0px; */
+}
+.icons p{
+    display: inline-block;
+}
+.who-we-are cap info{
+    margin-bottom: 30px;
+    font-size: 15.5px;
+    line-height: 1.8;
+    color: #777;
+}
+.our-baking{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.our-baking p{
+    font-family: "Alegreya sans", sans-serif;
+    font-weight: 400;
+    color: #686868;
+}
+.item{
+    text-align: center;
+    float: left;
+    width: 30%;
+    margin: 20px;
+    margin-top: 50px;
+}
+.fix{
+    clear: both;
+}
+.item img{
+    width: 100%;
+}
+.item p{
+    font-family: "Alegreya sans";
+    width: 90%;
+    color: #777;
+    line-height: 1.8;
+}
+.location{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #f8f8f8;
+    margin-bottom: 50px;
+    /* padding: 75px; */
+}
+.text{
+    width: 45%;
+    float: left;
+    vertical-align: top;
+    margin-top: 40px;
+}
+.text h2{
+   
+    padding-left: 50px;
+    font-family: 'Alegreya', serif;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.text p{
+   
+    padding-left: 50px;
+    font-family: 'Alegreya', serif;
+    width: 90%;
+    color: #777;
+    line-height: 1.8;
+    font-size: 16px;
+}
+.photo{
+    width: 50%;
+    float: left;
+}
+.photo img{
+    width: 100%;
+}
+.clear{
+    clear: both;
+}
+.contact{
+        padding-top: 90px;
+        padding-bottom: 90px;
+        margin-bottom: 50px;    
+}
+
+
+.cont-info li img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #8e7754;
+    vertical-align: middle;
+}
+.cont-info p{
+    display: inline-block;
+    margin: 10px;
+}
+.cont-info li{
+    color: #777;
+    font-size: 17px;
+    margin-top: 30px;
+    text-align: -webkit-match-parent;
+}
+.cont-info{
+    float: left;
+    margin-bottom: 30px;
+    font-size: 15.5px;
+    line-height: 1.8;
+    color: #777;
+    width:45%;
+}
+.line{
+    margin-bottom: 30px;
+    font-size: 15.5px;
+    line-height: 1.8;
+    color: #777;
+}
+.l{
+    font-size: 15.5px;
+    line-height: 1.8;
+    color: #777; 
+}
+.map{
+    float: left;
+    width: 50%;
+}
+.about{
+    padding-top: 75px;
+    padding-bottom: 60 px;
+    background-color: #403d38;
+    padding-right: 75px;
+    padding-left: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.about-item{
+    float: left;
+    width: 24%;
+    margin-right: 12px;
+}
+.about-item h3{
+    color: white;
+    font-weight: 100;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Alegreya', serif;
+}
+.about-item p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Alegreya', serif;
+}
+.arrow li{
+    color: #969696;
+    font-size: 16px;
+    padding: 10px 0px;
+    border-bottom: 1px
+    solid rgba(255, 255, 255, 0.05);
+}
+.arrow img{
+    width: 15px;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 3px;
+}
+.arrow p{
+    display: inline-block;
+    margin: 10px;
+}
+.about-item{
+    list-style: none;
+}
+.about-item p{
+    display: inline-block;
+}
+.about-item img{
+    width: 30px;
+}
+.about-item li{
+    color: #969696;
+    font-size: 16px;
+    padding: 10px 0px; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.decoration{
+    color: #969696;
+    font-size: 16px;
+    padding: 10px 0px; 
+    font-family: 'Alegreya', serif;
+}
+.footer{
+    padding-top: 60px;
+    padding-bottom: 45px;
+    background-color: #353330;
+    text-align: center;
+}
+.footer img{
+    width: 350px;
+}
+.footer p{
+    color: #777;
+    font-size: 14px;
+}
+.platforms{
+    text-align: center;
+}
+.platforms img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #454840;
+    margin: 15px 5px 0px 0px;
+    transition: 0.3s;
+}
